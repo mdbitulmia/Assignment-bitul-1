@@ -33,9 +33,58 @@ nav .menu a{
 }
 
 nav .btn-1{
-    background-color: aqua;
-    border:none;
+    background-color:  #38B868;
     padding: 12px 16px;
     border-radius: 5px;
     font-size: 20px;
+    margin: 16px 120px 16px 0px;
+}
+
+#bannar{
+    width: 1450px;
+    height: 600px;
+    background-image: url(/image/hero-bg.png);
+}
+
+.bannar-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding:154px 341px 0px 341px;
+}
+
+.image-btn h6{
+    ba
+}
+
+.bannar-section h1{
+    font-size: 72px;
+    line-height: 84px;
+    font-style: 400;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.bannar-section .hadding-1{
+    color: #FFFFFF;
+}
+
+.bannar-section .hadding-2{
+    color: #38B868;
+}
+
+.bannar-section p{
+    font-style: 400;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.bannar-section .btn-1{
+    width: 252px;
+    height: 40px;
+    display: flex;
+    gap:20px;
 }
